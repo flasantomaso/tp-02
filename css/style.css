@@ -1,0 +1,320 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+@import url(normalize.css);
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Inconsolata', sans-serif;
+	margin: 0;
+	background-image: url(../images/Wave-GrayWhite-300x218.png);
+}
+
+img{
+	max-width: 100%;
+}
+
+ul, ol{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+figure{
+	margin: 0;
+}
+
+.container{
+	max-width: 900px;
+	margin:auto;
+}
+
+
+h1{
+	font-size: 40px;
+	margin:0px;
+	font-family:'Pacifico', cursive;
+	color:#47246B;
+}
+
+.datos{
+	float: left;
+	text-align: left;
+	width: 35%;
+}
+
+.datos hr{
+	background-color: dashed black;
+	border: 1px solid black;
+}
+
+.foto{
+	float: right;
+	/*margin-right: 150px;*/
+}
+
+.foto img{
+	border-radius: 50px;
+	width: 130px;
+	height: 100px;
+	margin-top: 20px;
+
+}
+
+.iconos{
+	font-size: 30px !important;
+	margin-top: 32px;
+}
+
+.iconos a{
+	color: #000;
+	text-decoration: none;
+}
+.iconos a:hover{
+	color: red;
+}
+
+.fa-user{
+	font-size: 30px !important;
+}
+
+.fa-hand-o-right{
+	font-size: 30px !important;
+}
+
+.fa-graduation-cap{
+	font-size: 30px !important;	
+}
+
+
+.cv-title{
+	font-family: 'Pacifico', cursive;
+}
+
+.cleaner{
+	clear: both;
+}
+
+.skills{
+	width:33.3%;
+	float: left;
+	font-size: 60px !important;
+	text-align: center;
+}
+
+.fa-star{
+	color:#47246B;
+	font-size:20px !important;
+}
+
+.fa-star-o{
+	color:#47246B;
+	font-size:20px !important;
+}
+
+
+.text-skills{
+	font-size: 18px;
+	text-align:center;
+	font-family: 'Rubik+Mono+One';
+}
+
+span{
+	font-weight: bold;
+	font-size: 22px;
+}
+.cv{
+	/*padding-left: 40px;
+	padding-right: 40px;*/
+	margin-bottom: 50px;
+	/*width: 90%;*/
+}
+
+.cv hr{
+	background-color: black;
+	border-color: black;
+}
+
+
+.left{
+	float:left;
+	width: 50%;
+}
+
+.right{
+	float: right;
+	width: 50%;
+}
+
+.left input{
+	height: 50px;
+	border-radius: 10px;
+	border:#fff;
+	display: block;
+	width: 90%;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	border:solid grey;
+}
+
+.right textarea{
+	height: 120px;
+	border-radius: 10px;
+	width:100%;
+	border:solid grey;
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+::-webkit-input-placeholder{color:#47246B;}
+
+.main-footer button {
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 40px;
+	border: solid 1px #fff;
+	border-radius: 10px;
+}
+
+.button a{
+	text-decoration: none;
+}
+
+/*FORMATO MEDIUM*/
+@media (max-width: 900px){
+	.container{
+		width: 95%;
+	}
+	h1{
+		font-size: 30px;
+	}
+	.datos{
+		font-size: 15px;
+	}
+	.cv-title{
+		font-size: 20px;
+	}
+	.text-skills{
+		font-size: 15px;
+	}
+	span{
+		font-size: 18px;
+	}
+}
+/*FORMATO SMALL*/
+@media (max-width: 600px){
+	
+	h1{
+	font-size: 21px;
+	margin:0px;
+	}
+
+	.datos{
+		margin-bottom: 0;
+	}
+	.datos p{
+		font-size: 13px;
+	}
+
+	.foto{
+	width: 30%;
+	}
+
+	.banner-text{
+	font-size: 13px;
+	}
+
+	.iconos a{
+		font-size: 18px;
+		margin:0;
+	}
+
+	.foto img{
+	width: 55%;
+	}
+
+	.skills{
+		float: none;
+		width: 100%;
+		text-align: left;
+	}
+	
+	.estrellas{
+	font-size: 1px !important;
+	}
+
+	.text-skills{
+	text-align:left;
+	}
+	
+	.cv-title{
+	font-size: 20px;
+	}
+}
+
+/*FORMATO X-SMALL*/
+
+@media (max-width: 400px){
+	.foto{
+		display: none;
+	}
+	h1{
+		font-size: 18px;
+	}
+
+	.banner-text{
+	font-size: 10px;
+	}
+
+	.iconos a{
+		font-size: 12px;
+	}
+	
+	.cv-title{
+	font-size: 18px;
+	}
+	.fa-user{
+	font-size: 18px !important;
+}
+
+.fa-hand-o-right{
+	font-size: 18px !important;
+}
+
+.fa-graduation-cap{
+	font-size: 18px !important;	
+}
+
+.fa-file-excel-o{
+	font-size: 40px !important;	
+}
+
+.fa-html5{
+	font-size: 40px !important;	
+}
+
+.fa-css3{
+	font-size: 40px !important;	
+}
+.fa-star{
+	font-size:15px !important;
+}
+
+.fa-star-o{
+	font-size:15px !important;
+
+}
+
+
+.left input{
+	font-size: 12px;
+	}
+
+.right textarea{
+	font-size: 12px;
+	}
+}
+
